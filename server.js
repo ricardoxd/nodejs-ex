@@ -28,7 +28,7 @@ async.parallel(tests,
   function(err, results) {
     if(err){
         console.error(err);
-        res.write('Runed');
+        res.write('Error');
         res.end();
         tests=[];
     }
@@ -38,13 +38,13 @@ async.parallel(tests,
       var failures = result.run.failures;
       console.info(failures.length ? JSON.stringify(failures.failures, null, 2) :
              
-        `${result.collection.name} ran successfully.`);
+        `${result.collection.name} run successfully. `);
 //console.log(result);
-
-    });
-    res.write('Runed');
+        res.write(result.collection.name+' run successfully. ');
     res.end();
     tests=[];
+    });
+    
   });
   
   

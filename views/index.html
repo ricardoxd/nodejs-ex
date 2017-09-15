@@ -22,6 +22,9 @@ and open the template in the editor.
             <input id="number" type="number" max="100" min="0"/>
 <button type="button" class="btn btn-primary btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Test">Submit Test</button>
 <br>
+<div id="log">
+    
+</div>
 </div>
         </div>
         <script>
@@ -36,7 +39,9 @@ $('.btn').on('click', function() {
   $.ajax({
   url: "/test/"+number+"/dudnd73nbx823nbxins8jxznd83ndinxomsjdnew8723ndushg237wndjsd73slks83",
    method: "GET"
-}).done(function() {
+}).done(function(data) {
+    console.log(data);
+    $('#log').html($('#log').html()+'<br>'+data);
   $this.button('reset');
 });
   
