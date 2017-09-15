@@ -26,7 +26,13 @@ var runTest = function (res) {
     // Runs the Postman sample collection thrice, in parallel.
 async.parallel(tests,
   function(err, results) {
-    err && console.error(err);
+    if(err){
+        console.error(err);
+        res.write('Runed');
+        res.end();
+        tests=[];
+    }
+    
 
     results.forEach(function(result) {
       var failures = result.run.failures;
