@@ -1,0 +1,93 @@
+{
+	"id": "6b229b5f-a975-822d-23e7-d0d32b3d26ce",
+	"name": "chat",
+	"description": "",
+	"order": [
+		"f7045c8b-c1f2-8304-f1e4-fe6ebb7adfe4"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1505477248571,
+	"owner": "1657108",
+	"public": false,
+	"requests": [
+		{
+			"id": "f7045c8b-c1f2-8304-f1e4-fe6ebb7adfe4",
+			"headers": "Accept-Encoding: gzip, deflate, br\nAccept-Language: en-EN,en;q=0.8\nUpgrade-Insecure-Requests: 1\nUser-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\nCache-Control: max-age=0\nIf-None-Match: W/\"115-IOQWoHTWAbd42QHDGoZRQzG4UHE\"\nConnection: keep-alive\nAlexaToolbar-ALX_NS_PH: AlexaToolbar/alx-4.0.1\n",
+			"headerData": [
+				{
+					"key": "Accept-Encoding",
+					"value": "gzip, deflate, br",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept-Language",
+					"value": "en-EN,en;q=0.8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Upgrade-Insecure-Requests",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "User-Agent",
+					"value": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Cache-Control",
+					"value": "max-age=0",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "If-None-Match",
+					"value": "W/\"115-IOQWoHTWAbd42QHDGoZRQzG4UHE\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Connection",
+					"value": "keep-alive",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "AlexaToolbar-ALX_NS_PH",
+					"value": "AlexaToolbar/alx-4.0.1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://greensocial.herokuapp.com/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "6b229b5f-a975-822d-23e7-d0d32b3d26ce",
+			"data": [],
+			"dataMode": "params",
+			"name": "http://greensocial.herokuapp.com/",
+			"description": "Generated from a curl request: \ncurl 'http://greensocial.herokuapp.com/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Accept-Language: es-ES,es;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'If-None-Match: W/\\\"115-IOQWoHTWAbd42QHDGoZRQzG4UHE\\\"' -H 'Connection: keep-alive' -H 'AlexaToolbar-ALX_NS_PH: AlexaToolbar/alx-4.0.1' --compressed",
+			"descriptionFormat": "html",
+			"time": 1505477369130,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
