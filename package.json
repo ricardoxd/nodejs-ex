@@ -1,17 +1,12 @@
 {
-  "name": "nodejs-ex",
+  "name": "nodejstestnewman",
   "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
+  "description": "Node.js test newman",
   "main": "server.js",
   "dependencies": {
-    "chai": "^3.5.0",
-    "chai-http": "^2.0.1",
-    "ejs": "^2.4.1",
-    "express": "^4.13.4",
-    "mocha": "^2.4.5",
-    "mongodb": "^2.1.16",
-    "morgan": "^1.7.0",
-    "object-assign":"4.1.0"
+    "async": "2.5.0",
+    "newman": "3.8.1",
+    "path": "0.12.7"
   },
   "engine": {
     "node": "*",
@@ -23,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/openshift/nodejs-ex.git"
+    "url": "https://github.com/ricardoxd/nodejstestnewman.git"
   },
   "author": "Steve Speicher <sspeiche@gmail.com>",
   "license": "CC-BY-1.0",
   "bugs": {
-    "url": "http://github.com/openshift/nodejs-ex/issues"
+    "url": "https://github.com/ricardoxd/nodejstestnewman/issues"
   },
-  "homepage": "http://github.com/openshift/nodejs-ex"
+  "homepage": "https://github.com/ricardoxd/nodejstestnewman"
 }
